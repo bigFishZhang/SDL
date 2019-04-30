@@ -22,7 +22,8 @@ int main(int argc, char *argv[])
 {
   SDL_Window *sdl_window;
   SDL_Renderer *renderer;
-
+  int quit = 1;
+  SDL_Event event;
   // 0 init sdl
   SDL_Init(SDL_INIT_VIDEO);
 
@@ -68,17 +69,19 @@ int main(int argc, char *argv[])
   // show window
   SDL_RenderPresent(renderer);
 
-  while (1)
+  do
   {
-    SDL_Event e;
-    while (SDL_PollEvent(&e))
+
+    SDL_WaitEvent(&event);
+    switch (event.type)
     {
-      if (e.type == SDL_QUIT)
-      {
-        break;
-      }
+    case SDL_QUIT:
+      quit = 0;
+      break;
+    default:
+      SDL_Log("event type is %d \n", event.type);
     }
-  }
+  } while (quit);
 
 __FAIL:
   if (renderer)

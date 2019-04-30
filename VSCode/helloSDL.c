@@ -4,7 +4,8 @@
 int main(int argc, char *argv[])
 {
   printf("Hello SDL !\n");
-
+  int quit = 1;
+  SDL_Event event;
   SDL_Window *sdl_window = NULL;
   SDL_Renderer *renderer = NULL;
 
@@ -32,18 +33,19 @@ int main(int argc, char *argv[])
   SDL_RenderClear(renderer);
 
   SDL_RenderPresent(renderer);
-
-  while (1)
+  do
   {
-    SDL_Event e;
-    while (SDL_PollEvent(&e))
+
+    SDL_WaitEvent(&event);
+    switch (event.type)
     {
-      if (e.type == SDL_QUIT)
-      {
-        break;
-      }
+    case SDL_QUIT:
+      quit = 0;
+      break;
+    default:
+      SDL_Log("event type is %d \n", event.type);
     }
-  }
+  } while (quit);
 
 __FAIL:
   if (renderer)
