@@ -7,8 +7,10 @@
     "args": [
       "-g",
       "-o",
-      "helloSDL",
-      "helloSDL.c",
+      // "helloSDL",
+      // "helloSDL.c",
+      "sdl_draw",
+      "sdl_graphics.c",
       "-lsdl2",
     ],
     "group": {
