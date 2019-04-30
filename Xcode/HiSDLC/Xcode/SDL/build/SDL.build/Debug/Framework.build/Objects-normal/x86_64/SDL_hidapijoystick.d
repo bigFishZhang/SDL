@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/bigfish/lib/SDL2-2.0.9/src/joystick/hidapi/SDL_hidapijoystick.c \
+  /Users/bigfish/lib/SDL2-2.0.9/src/joystick/hidapi/../../SDL_internal.h \
+  /Users/bigfish/lib/SDL2-2.0.9/src/joystick/hidapi/../../dynapi/SDL_dynapi.h \
+  /Users/bigfish/lib/SDL2-2.0.9/src/joystick/hidapi/../../dynapi/SDL_dynapi_overrides.h \
+  /Users/bigfish/lib/SDL2-2.0.9/include/SDL_config.h \
+  /Users/bigfish/lib/SDL2-2.0.9/include/SDL_platform.h \
+  /Users/bigfish/lib/SDL2-2.0.9/include/begin_code.h \
+  /Users/bigfish/lib/SDL2-2.0.9/include/close_code.h \
+  /Users/bigfish/lib/SDL2-2.0.9/include/SDL_endian.h \
+  /Users/bigfish/lib/SDL2-2.0.9/include/SDL_stdinc.h \
+  /Users/bigfish/lib/SDL2-2.0.9/include/SDL_hints.h \
+  /Users/bigfish/lib/SDL2-2.0.9/include/SDL_log.h \
+  /Users/bigfish/lib/SDL2-2.0.9/include/SDL_mutex.h \
+  /Users/bigfish/lib/SDL2-2.0.9/include/SDL_error.h \
+  /Users/bigfish/lib/SDL2-2.0.9/include/SDL_thread.h \
+  /Users/bigfish/lib/SDL2-2.0.9/include/SDL_atomic.h \
+  /Users/bigfish/lib/SDL2-2.0.9/include/SDL_timer.h \
+  /Users/bigfish/lib/SDL2-2.0.9/include/SDL_joystick.h \
+  /Users/bigfish/lib/SDL2-2.0.9/src/joystick/hidapi/../SDL_sysjoystick.h \
+  /Users/bigfish/lib/SDL2-2.0.9/src/joystick/hidapi/../SDL_joystick_c.h \
+  /Users/bigfish/lib/SDL2-2.0.9/src/joystick/hidapi/SDL_hidapijoystick_c.h \
+  /Users/bigfish/lib/SDL2-2.0.9/src/joystick/hidapi/../../hidapi/hidapi/hidapi.h

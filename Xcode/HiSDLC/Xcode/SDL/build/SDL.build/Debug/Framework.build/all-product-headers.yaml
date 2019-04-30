@@ -1,0 +1,317 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/bigfish/lib/SDL2-2.0.9/Xcode/SDL/build/Debug/SDL2.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SDL.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_assert.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_assert.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_atomic.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_atomic.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_audio.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_audio.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_bits.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_bits.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_blendmode.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_blendmode.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_clipboard.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_clipboard.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_config.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_config.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_config_macosx.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_config_macosx.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_copying.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_copying.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_cpuinfo.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_cpuinfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_endian.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_endian.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_error.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_error.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_events.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_events.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_filesystem.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_filesystem.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_gamecontroller.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_gamecontroller.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_gesture.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_gesture.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_haptic.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_haptic.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_hints.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_hints.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_joystick.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_joystick.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_keyboard.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_keyboard.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_keycode.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_keycode.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_loadso.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_loadso.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_log.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_log.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_main.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_main.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_messagebox.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_messagebox.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_mouse.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_mouse.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_mutex.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_mutex.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_name.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_name.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_opengl.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_opengl.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_opengl_glext.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_opengl_glext.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_opengles.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_opengles.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_opengles2.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_opengles2.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_opengles2_gl2.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_opengles2_gl2.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_opengles2_gl2ext.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_opengles2_gl2ext.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_opengles2_gl2platform.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_opengles2_gl2platform.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_opengles2_khrplatform.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_opengles2_khrplatform.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_pixels.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_pixels.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_platform.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_platform.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_power.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_power.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_quit.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_quit.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_rect.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_rect.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_render.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_render.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_revision.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_revision.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_rwops.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_rwops.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_scancode.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_scancode.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_sensor.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_sensor.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_shape.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_shape.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_stdinc.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_stdinc.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_surface.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_surface.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_system.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_system.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_syswm.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_syswm.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_thread.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_thread.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_timer.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_timer.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_touch.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_touch.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_types.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_types.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_version.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_version.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_video.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_video.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDL_vulkan.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/SDL_vulkan.h"
+        },
+        {
+          'type': 'file',
+          'name': "begin_code.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/begin_code.h"
+        },
+        {
+          'type': 'file',
+          'name': "close_code.h",
+          'external-contents': "/Users/bigfish/lib/SDL2-2.0.9/include/close_code.h"
+        }
+      ]
+    }
+  ]
+}

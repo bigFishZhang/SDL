@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [{
+    "label": "Build with Clang",
+    "type": "shell",
+    "command": "clang",
+    "args": [
+      "-g",
+      "-o",
+      "helloSDL",
+      "helloSDL.c",
+      "-lsdl2",
+    ],
+    "group": {
+      "kind": "build",
+      "isDefault": true
+    }
+  }]
+}
