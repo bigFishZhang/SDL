@@ -37,10 +37,9 @@ int main(int argc, char *argv[])
   //2 create renderer
   renderer = SDL_CreateRenderer(sdl_window, -1, SDL_RENDERER_SOFTWARE);
 
-  //3 set renderer color (set background color  Blue)
+  //3 set renderer color
   SDL_SetRenderDrawColor(renderer, 0, 0, 255, SDL_ALPHA_OPAQUE);
-
-  //4 clear color
+  //(set background color  Blue)
   SDL_RenderClear(renderer);
 
   //5 draw rect

@@ -9,8 +9,8 @@
       "-o",
       // "helloSDL",
       // "helloSDL.c",
-      "sdl_draw",
-      "sdl_graphics.c",
+      "sdl_draw_image",
+      "sdl_draw_image.c",
       "-lsdl2",
     ],
     "group": {

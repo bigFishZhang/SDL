@@ -28,8 +28,8 @@ int main(int argc, char *argv[])
     printf("Create renderer failed! \n");
     goto __FAIL;
   }
-  SDL_SetRenderDrawColor(renderer, 123, 123, 123, 255);
 
+  SDL_SetRenderDrawColor(renderer, 123, 123, 123, 255);
   SDL_RenderClear(renderer);
 
   SDL_RenderPresent(renderer);
