@@ -15,7 +15,7 @@ void read_audio_data(void *udata, Uint8 *stream, int len)
   {
     return;
   }
-  // 清空
+  // 清空 TODO 这么粗暴的操作导致还没播完的buffer被清除了声音断断续续
   SDL_memset(stream, 0, len);
   // 计算本次读取的数据大小
   len = (len < buffer_len) ? len : buffer_len;
