@@ -16,8 +16,8 @@ int main(int argc, char *argv[])
   SDL_Window *window;
   SDL_Surface *surfaceBMP;
 
-  SDL_Renderer *renderer;
-  SDL_Texture *texture;
+  SDL_Renderer *renderer; //视频缓冲区，按照像素存放图像
+  SDL_Texture *texture;   //缓冲区 存放图像的描述信息 通过这些信息绘制图像，GPU硬件计算 效率更高
 
   //获取窗口指针，未指定位置信息，宽高为800x600
   window = SDL_CreateWindow("SDL_bmp_title", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 800, 600, SDL_WINDOW_SHOWN);

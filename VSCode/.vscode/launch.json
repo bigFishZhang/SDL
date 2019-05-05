@@ -7,7 +7,7 @@
     "name": "debug",
     "type": "cppdbg",
     "request": "launch",
-    "program": "${workspaceFolder}/sdl_draw_image",
+    "program": "${workspaceFolder}/sdl_thread",
     "args": [],
     "stopAtEntry": false,
     "cwd": "${workspaceFolder}",
