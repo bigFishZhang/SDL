@@ -11,8 +11,10 @@
       // "helloSDL.c",
       // "sdl_draw_image",
       // "sdl_draw_image.c",
-      "sdl_thread",
-      "sdl_thread.c",
+      // "sdl_thread",
+      // "sdl_thread.c",
+      "sdl_yuvplayer",
+      "sdl_yuvplayer.c",
       "-lsdl2",
     ],
     "group": {

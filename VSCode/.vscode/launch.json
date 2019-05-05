@@ -7,7 +7,7 @@
     "name": "debug",
     "type": "cppdbg",
     "request": "launch",
-    "program": "${workspaceFolder}/sdl_thread",
+    "program": "${workspaceFolder}/sdl_yuvplayer",
     "args": [],
     "stopAtEntry": false,
     "cwd": "${workspaceFolder}",

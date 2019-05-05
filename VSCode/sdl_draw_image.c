@@ -1,10 +1,10 @@
 //SDL 图片渲染
 #include <stdio.h>
-// #include <stdafx.h>
 #include <SDL2/SDL.h>
 
 // #define IMG_PATH "/Users/bigfish/test/SDL_logo.png"
-#define IMG_PATH "/Users/bigfish/test/AAC05.bmp"
+// #define IMG_PATH "/Users/bigfish/test/AAC05.bmp"
+#define IMG_PATH "AAC05.bmp"
 
 #undef main //SDL 中定义了main，所以这里去掉，不然会执行错误！
 
