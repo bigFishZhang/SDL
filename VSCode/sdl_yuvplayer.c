@@ -129,6 +129,7 @@ int main(int argc, char *argv[])
 
   // 5 打开文件
   video_file = fopen(path, "r");
+  // rewind(video_file);
   if (!video_file)
   {
     fprintf(stderr, "Failed to open video_file, %s\n", SDL_GetError());

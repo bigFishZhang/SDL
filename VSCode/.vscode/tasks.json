@@ -13,8 +13,10 @@
       // "sdl_draw_image.c",
       // "sdl_thread",
       // "sdl_thread.c",
-      "sdl_yuvplayer",
-      "sdl_yuvplayer.c",
+      // "sdl_yuvplayer",
+      // "sdl_yuvplayer.c",
+      "sdl_pcmplayer",
+      "sdl_pcmplayer.c",
       "-lsdl2",
     ],
     "group": {
